@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/account.css">
+    <script src="https://kit.fontawesome.com/53c9c83285.js" crossorigin="anonymous"></script>
+    <script src="../Java/script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">M & T</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" placeholder="Search">
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h1 id="title">Become Our Member</h1>
+        <form>
+            <input type="email" name="Email" id="Email" placeholder="Email Address" required>
+            <input type="password" name="Password" id="Password" placeholder="Passowrd" required>           
+            <input type="password" name="Confirm" id="Confirm"  placeholder="Confirm Password" required> 
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+            <label id="checkbox">
+                <p id="AgreeLabel"><input type="checkbox" name="Agree" id="Agree" required>I agree to the terms and conditions, as well as Privacy of Companion
+                </p>
+            </label>
+            <br>
+            <button id="join-us" type="submit" onclick="validateFunction()">Join Us</button>
+        </form>
+        <div class="no-acc">
+            <p>Already have an account ?</p>
+            <a href="signin.html" id="sign-in">Sign in</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: black;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    width: fit-content;
+    float: right;
+    margin-left: 300px;
+    position: relative;
+    margin-right: -200px;
+    margin-top: 23px;
+}
+
+.srch{
+    width: 200px;
+    height: 25px;
+    background: gainsboro;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box{
+    width: 360px;
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 500px;
+    border: 5px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form input{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+#Agree{
+    /* position: relative; */
+    display: flex;
+    position: absolute;
+    margin-left: -643px;
+    justify-content: left;
+    padding: -10px;
+    /* padding-left: -20px; */
+    margin-top: 3px;
+    /* border: 2px solid #121212; */
+}
+
+#AgreeLabel {
+    /* margin-top: 10px; */
+    display: flex;
+    padding: 10px;
+    /* margin-left: 15px; */
+    padding-left: 20px;
+    justify-content: left;
+    /* border: 2px solid #121212; */
+    /* position: relative; */
+    /* margin-left: -150px; */
+}
+
+#join-us{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.no-acc{
+    text-align: center;
+}
+
+#sign-in{
+    color: black;
+    font-weight: bold;
+}
+
+#checkbox{
+    /* margin-left: -150px; */
+    /* justify-content: left; */
+    /* border: 1px solid #121212; */
+    /* position: relative; */
+    /* position: fixed; */
+    display: block;
+    /* position: absolute; */
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+}

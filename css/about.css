@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: black;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    width: fit-content;
+    float: right;
+    margin-left: 300px;
+    position: relative;
+    margin-right: -200px;
+    margin-top: 23px;
+}
+
+.srch{
+    width: 200px;
+    height: 25px;
+    background: gainsboro;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#abt-ptc{
+    width: 1200px;
+    height: 600px;
+    position: sticky;
+    object-position: 100px
+}
+
+.txt{
+    position: relative;
+    color: black;
+    top: 25px;
+}
+
+.txt h2{
+    position: relative;
+    text-align: center;
+}
+
+.txt p{
+    top: 10px;
+    color: gray;
+    position: relative;
+    text-align: center;
+}

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: black;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    width: fit-content;
+    float: right;
+    margin-left: 300px;
+    position: relative;
+    margin-right: -200px;
+    margin-top: 23px;
+}
+
+.srch{
+    width: 200px;
+    height: 25px;
+    background: gainsboro;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sort-by{
+    padding-left: 250px;
+    display: flex;
+}
+
+.sort-by h4{
+    color: black;
+    padding-top: 10px;
+    padding-right: 20px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    font-size: 20px;
+}
+
+.upper{
+    margin-bottom: 30px;
+    border-width: 100px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.container{
+    margin: 50px;
+}
+
+.container h3{
+    text-align: center;
+    align-items: center;
+}
+
+#merk{
+    border: solid;
+    border-width: 1px;
+}
+
+.upper h3{
+    margin-bottom: 15px;
+}
+
+.upper h5{
+    margin-bottom: 15px;
+}
+
+.upper h6{
+    margin-bottom: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.bottom h5{
+    margin-bottom: 10px;
+}
+
+.bottom h6{
+    border: solid;
+    border-width: 1px;
+    width: 35px;
+    margin-bottom: 15px;
+}
+
